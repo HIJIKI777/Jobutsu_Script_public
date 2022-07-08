@@ -1,3 +1,7 @@
+/*
+BGMを流すゲームオブジェクトにアタッチしたもの
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
