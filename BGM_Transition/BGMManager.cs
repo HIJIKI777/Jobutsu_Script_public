@@ -29,7 +29,7 @@ public class BGMManager : MonoBehaviour
     void Update(){
         FlyingScore = scorescript.FlyingTime;
 
-        //全てtrueの複数の音源を同時に再生すると重くなるので
+        //複数の音源を同時に再生すると重くなるので
         //スコアを参照して，ステージごとにtrueとなるオブジェクト
         //即ち，再生するBGMを選択して，それのみを再生する
         if(FlyingScore > 550 && FlyingScore <= 1050){

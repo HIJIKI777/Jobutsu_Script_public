@@ -18,7 +18,6 @@ public class BGMScript : MonoBehaviour
 
     void Start()
     {
-        // MusicPlayer.SetActive(false);    これは親オブジェクトに
         scorescript = GameObject.Find("ScoreText").GetComponent<ScoreScript>();
         Audio = GetComponent<AudioSource>();
     }
